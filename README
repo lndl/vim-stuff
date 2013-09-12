@@ -10,3 +10,7 @@ THEN:
 cd .vim
 git submodule init
 git submodule update
+
+INSTALLING BUNDLES:
+
+git submodule add [git repository] bundle/[bundle dir]
