@@ -1,0 +1,12 @@
+My vim configuration.
+
+HOW INSTALL:
+
+ln -s vim-stuff/ .vim
+ln -s vim-stuff/vimrc .vimrc
+
+THEN:
+
+cd .vim
+git submodule init
+git submodule update
