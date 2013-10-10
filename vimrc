@@ -16,8 +16,8 @@ filetype indent plugin on
 
 syntax on
 
-" || Allows you to re-use the same window and switch from an unsaved buffer without 
-" || saving it first. Also allows you to keep an undo history for multiple files 
+" || Allows you to re-use the same window and switch from an unsaved buffer without
+" || saving it first. Also allows you to keep an undo history for multiple files
 
 set hidden
 
@@ -29,7 +29,7 @@ set wildmenu
 
 set showcmd
 
-" || Highlight searches 
+" || Highlight searches
 
 set hlsearch
 
@@ -74,11 +74,14 @@ set cmdheight=1
 
 " || Display line numbers on the left
 
-set number
+" set number
 
 " || Quickly time out on keycodes, but never time out on mappings
 
 set notimeout ttimeout ttimeoutlen=200
+
+" ||  Remove trailing spaces in each document line when saving
+autocmd BufWritePre * :%s/\s\+$//e
 
 "------------------------------------------------------------
 " || Color settings
@@ -86,7 +89,7 @@ set notimeout ttimeout ttimeoutlen=200
 
 " || Change color scheme
 
-color desert 
+color desert
 
 " || Change popups colors
 highlight Pmenu ctermbg=red ctermfg=white
@@ -117,12 +120,12 @@ imap ññ <Esc>
 
 " || Remapping movement keys to fit better in a spanish layout (NO MORE USED)
 
-map h <nop>
+"map h <nop>
 map j <left>
 map k <down>
 map l <up>
 map ñ <right>
 
 "------------------------------------------------------------
-" || Plugins 
+" || Plugins
 "------------------------------------------------------------
