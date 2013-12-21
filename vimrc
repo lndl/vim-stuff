@@ -89,7 +89,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " || Change color scheme
 
-color desert
+color default
 
 " || Change popups colors
 highlight Pmenu ctermbg=red ctermfg=white
