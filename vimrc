@@ -133,3 +133,7 @@ map ñ <right>
 "------------------------------------------------------------
 " || Plugins
 "------------------------------------------------------------
+
+"Ctrl-P Funky (For functions declarations/definitions jumps)
+let g:ctrlp_extensions = ['funky']
+nnoremap <C-O> :CtrlPFunky<Cr>

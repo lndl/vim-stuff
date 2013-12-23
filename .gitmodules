@@ -10,3 +10,6 @@
 [submodule "bundle/alternate"]
 	path = bundle/alternate
 	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/ctrlp-funky"]
+	path = bundle/ctrlp-funky
+	url = git://github.com/tacahiroy/ctrlp-funky.git
