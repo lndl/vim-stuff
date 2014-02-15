@@ -137,3 +137,6 @@ imap ññ <Esc>
 "Ctrl-P Funky (For functions declarations/definitions jumps)
 let g:ctrlp_extensions = ['funky']
 nnoremap <C-O> :CtrlPFunky<Cr>
+
+"Vim-Gutter
+highlight clear SignColumn
