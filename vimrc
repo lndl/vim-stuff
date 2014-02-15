@@ -125,10 +125,10 @@ imap ññ <Esc>
 " || Remapping movement keys to fit better in a spanish layout (NO MORE USED)
 
 "map h <nop>
-map j <left>
-map k <down>
-map l <up>
-map ñ <right>
+"map j <left>
+"map k <down>
+"map l <up>
+"map ñ <right>
 
 "------------------------------------------------------------
 " || Plugins
