@@ -130,6 +130,13 @@ imap ññ <Esc>
 "map l <up>
 "map ñ <right>
 
+" || Improving tabs navigation
+" switch to next tab
+noremap t <C-PageDown>
+" " switch to previous tab
+noremap T <C-PageUp>
+
+
 "------------------------------------------------------------
 " || Plugins
 "------------------------------------------------------------
