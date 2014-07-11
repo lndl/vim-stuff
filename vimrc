@@ -96,8 +96,9 @@ highlight Pmenu ctermbg=red ctermfg=white
 highlight PmenuSel ctermbg=blue ctermfg=white
 
 " || Enable current line highlightling
-set cursorline
-hi cursorline term=bold cterm=bold guibg=Grey40
+" || Disabled because it slowdowns the terminal navigation
+" set cursorline
+" hi cursorline term=bold cterm=bold guibg=Grey40
 
 "------------------------------------------------------------
 " || Indentation options
