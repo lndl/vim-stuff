@@ -86,6 +86,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 "------------------------------------------------------------
 " || Color settings
 "------------------------------------------------------------
+" || Set 256 colors
+
+set t_Co=256
 
 " || Change color scheme
 
@@ -94,11 +97,6 @@ color default
 " || Change popups colors
 highlight Pmenu ctermbg=red ctermfg=white
 highlight PmenuSel ctermbg=blue ctermfg=white
-
-" || Enable current line highlightling
-" || Disabled because it slowdowns the terminal navigation
-" set cursorline
-" hi cursorline term=bold cterm=bold guibg=Grey40
 
 "------------------------------------------------------------
 " || Indentation options
@@ -148,3 +146,6 @@ nnoremap <C-O> :CtrlPFunky<Cr>
 
 "Vim-Gutter
 highlight clear SignColumn
+
+"Vim-Airline
+let g:airline_powerline_fonts = 1

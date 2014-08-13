@@ -14,3 +14,9 @@ git submodule update
 INSTALLING BUNDLES:
 
 git submodule add [git repository] bundle/[bundle dir]
+
+ADDITIONAL REQUIREMENTS:
+
+Must have Powerline patched fonts for vim-airline status bar plugin
+https://github.com/Lokaltog/powerline-fonts. Then follow the instructions
+from that repository in order to install those fonts.
