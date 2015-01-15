@@ -16,6 +16,10 @@ filetype indent plugin on
 
 syntax on
 
+" || Clipboarding
+
+set clipboard=unnamedplus " Use system wide clipboard by default
+
 " || Allows you to re-use the same window and switch from an unsaved buffer without
 " || saving it first. Also allows you to keep an undo history for multiple files
 
@@ -128,13 +132,6 @@ imap ññ <Esc>
 "map k <down>
 "map l <up>
 "map ñ <right>
-
-" || Improving tabs navigation
-" switch to next tab
-noremap t <C-PageDown>
-" " switch to previous tab
-noremap T <C-PageUp>
-
 
 "------------------------------------------------------------
 " || Plugins
