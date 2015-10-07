@@ -1,6 +1,21 @@
-" || Autoloads all bundles/plugins
+call plug#begin('~/.vim/plugged')
 
-call pathogen#infect()
+" || Plugin List
+
+Plug 'kien/ctrlp'
+Plug 'msanders/snipmate'
+Plug 'tpope/vim-rails'
+Plug 'vim-scripts/a'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'mattn/emmet-vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-repeat'
+
+call plug#end()
+
 
 " || Set 'nocompatible' to ward off unexpected things that your distro might
 " || have made, as well as sanely reset options when re-sourcing .vimrc
