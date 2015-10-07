@@ -1,11 +1,23 @@
-" || Autoloads all bundles/plugins
-
-call pathogen#infect()
-
 " || Set 'nocompatible' to ward off unexpected things that your distro might
 " || have made, as well as sanely reset options when re-sourcing .vimrc
 
 set nocompatible
+
+" || Plugin List
+
+call plug#begin('~/.vim/plugged')
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'msanders/snipmate.vim'
+Plug 'tpope/vim-rails'
+Plug 'vim-scripts/a.vim'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'mattn/emmet-vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-repeat'
+call plug#end()
 
 " || Allow intelligent auto-indenting for each filetype,
 " || and for plugins that are filetype specific.
